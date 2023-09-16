@@ -1,0 +1,178 @@
+@charset "utf-8";
+@font-face {
+  font-family: "minhaFont";
+  src: url(NewCheese.ttf) 
+  format("truetype");
+}
+
+*{
+  margin: 0px
+}
+header{
+  background: linear-gradient(to bottom,  #02001a,rgb(49, 197, 255));
+  margin-bottom: 10px;
+  padding: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.342);
+
+}
+
+header > h1 {
+  text-align: center;
+  color: white;
+  text-shadow: 5px 5px 5px rgb(0,0,0,0.5);
+  font-family: "minhaFont";
+  font-weight: normal;
+  font-size: 60px;
+  margin: 30px;
+}
+#res {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  margin: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow:1px 1px 1px rgba(0, 0, 0, 0.3);
+  background-color: rgb(49, 197, 255);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.342);
+  height: 100px;
+  text-align: center;
+}
+
+main {
+  min-width: 400px ;
+  max-width: 850px ;
+  background-color:whitesmoke;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  padding-top: 40px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.342);
+  border-radius: 10px;
+}
+img {
+  width: 100%;
+  height: 400px;
+  margin: auto;
+}
+main  > h1 {
+  font-family: "minhaFont";
+  font-weight: 300;
+  color:black;
+  font-size: 2.5em;
+  text-align: left;
+  text-shadow: 5px 5px 5px rgb(0,0,0,0.3);
+}
+section > h1 {
+  font-family: "minhaFont";
+  font-weight: 300;
+  color:black;
+  font-size: 2.5em;
+  line-height: 50px;
+  text-shadow: 5px 5px 5px rgb(0,0,0,0.3);
+}
+aside > h1 {
+  font-family: "minhaFont";
+  font-weight: 300;
+  color:black;
+  font-size: 2.5em;
+  line-height: 50px;
+  text-shadow: 5px 5px 5px rgb(0,0,0,0.3);
+}
+main > p {
+ 
+  font-size: 1.5em;
+  line-height: 2em;
+  margin: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow:1px 1px 1px rgba(0, 0, 0, 0.3);
+} 
+input {
+  width: 175px;
+  height: 30px;
+}
+section > p {
+  text-align: justify;
+  text-indent: 20px;
+  font-size: 1.5em;
+  line-height: 2em;
+  margin: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow:1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+b {
+  font-size: 1.5em;
+  margin: 20px;
+  line-height: 2em;
+  text-shadow:1px 1px 1px rgba(0, 0, 0, 0.3);
+
+}
+body {
+  background-color: rgb(136, 220, 253);
+}
+div.video {
+  background-color: rgb(49, 197, 255);
+  margin: 0px -20px 30px -20px;
+  padding: 20px;
+  position: relative;
+  padding-bottom: 56.5%;
+}
+div.video > iframe {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+}
+footer {
+  background: linear-gradient(to bottom,rgb(49, 197, 255), #02001a);
+  margin-top: 10px;
+  padding: 20px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.342);
+  color: whitesmoke;
+}
+footer > p {
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow:1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+#titulo {
+  font-family: "minhaFont";
+  font-weight: 300;
+  color:black;
+  font-size: 2.5em;
+  line-height: 50px;
+  text-align: center;
+  text-shadow: 5px 5px 5px rgb(0,0,0,0.3);
+}
+aside {
+  background-color:rgb(49, 197, 255 );
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.342);
+}
+aside > ul {
+  list-style-position: inside;
+  columns: 2;
+}
+a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow:1px 1px 1px rgba(0, 0, 0, 0.3);
+  color: black;
+}
+main a:hover {
+  text-decoration: underline;
+  color: whitesmoke;
+  transition-duration: 0.5;
+
+}

@@ -1,0 +1,87 @@
+<!doctype html> 
+<html lang="pt-br">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular o IMC</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+       
+      <h1>Calcule o seu IMC </h1>
+      
+    </header>
+    
+    <main>
+
+      <h1>Informe seus dados</h1><br>
+      <p>Informe o seu peso:
+        <input type="number" name="peso" id="txtpeso" placeholder="(Em kg)"><br>
+        Informe a sua altura: <input type="number" name="altura" id="txtaltura" placeholder="(Em metros)"><br>
+        Informe o seu nome: <input type="string" name="nome" id="txtnome"><br>
+      </p><br>
+      <input type="button" value="Calcular IMC" onclick="Calcular()"><br><br>
+      <section>
+        
+        <div id="titulo">Seu IMC:</div>
+        <div id="res"></div><br>
+        
+      </section>
+      <section>
+        
+        <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/XzJ56i_T8Ws?si=kh76FvC_UbFavHm_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+        
+        <h1>O Índice de Massa Corporal (IMC): O que é e como calcular</h1><br>
+
+        <p>O Índice de Massa Corporal (IMC) é uma medida amplamente utilizada para avaliar se uma pessoa está em um peso saudável em relação à sua altura. Ele fornece uma estimativa rápida da quantidade de gordura corporal de uma pessoa e é um indicador útil para avaliar o risco de problemas de saúde associados ao peso.</p>
+        
+        <p>O cálculo do IMC é relativamente simples e envolve dois fatores: peso e altura. A fórmula padrão é:</p><br>
+        
+        <b>IMC = 70 / (1,75 x 1,75) = 22,86</b><br><br>
+        
+        <p>Uma vez calculado o IMC, ele pode ser interpretado da seguinte forma:</p><br>
+        
+      <b>Menos de 18,5: Abaixo do peso<br>
+          18,5 - 24,9: Peso saudável<br>
+          25,0 - 29,9: Sobrepeso<br>
+          30,0 - 34,9: Obesidade Grau I<br>
+          35,0 - 39,9: Obesidade Grau II<br>
+          40,0 ou mais: Obesidade Grau III (obesidade mórbida)</b><br><br>
+
+          <picture><img alt='fotoimc' src="obesidade.jpg" class="image"></picture><br><br>
+        
+        <p>No entanto, é importante ressaltar que o IMC tem suas limitações. Ele não leva em consideração fatores como a composição corporal, distribuição de gordura, massa muscular e idade. Portanto, é uma ferramenta inicial de avaliação, mas não deve ser usada isoladamente para determinar a saúde geral de alguém.</p>
+         
+        <br><h1>conclusão</h1><br>
+        <p>É recomendável que qualquer preocupação com peso ou saúde seja discutida com um profissional de saúde, que pode realizar avaliações mais abrangentes e personalizadas, levando em consideração outros fatores relevantes. Além disso, lembre-se de que o IMC é apenas uma parte da imagem quando se trata de bem-estar e saúde.</p><br>
+        
+        
+      </section>
+      <h1>Veja mais</h1><br>
+      <aside >
+        
+        <ul>
+          <li><a href="https://www.conexasaude.com.br/blog/o-que-e-o-sono-e-como-ele-funciona/" target="_blank">O que é o sono e como ele funciona?</a></li><br>
+          <li><a href="https://www.conexasaude.com.br/blog/como-cuidar-da-saude-mental-dos-colaboradores/" target="_blank">Cuide da saúde mental de seus colaboradores</a></li><br>
+          <li><a href="https://www.conexasaude.com.br/blog/4-motivos-para-a-pratica-de-exercicio-fisico/" target="_blank">Confira 4 motivos para a prática de exercício físico</a></li><br>
+          <li><a href="https://www.conexasaude.com.br/blog/sintomas-de-imunidade-baixa/"  target="_blank">4 sintomas de imunidade baixa para você ficar atento</a></li>
+          <li><a href="https://www.conexasaude.com.br/blog/dieta-dos-atletas-olimpicos-confira-curiosidades/" target="_blank">Dieta dos atletas olímpicos: confira curiosidades</a></li><br>
+          <li><a href="https://www.conexasaude.com.br/blog/plano-de-cargos-e-salarios/" target="_blank">Plano de cargos e salários para sua empresa: como elaborar?</a></li><br>
+          <li><a href="https://www.conexasaude.com.br/blog/resiliencia/" target="_blank">Resiliência: o que é, importância e como desenvolver?</a></li><br>
+          <li><a href="https://www.conexasaude.com.br/blog/checklist-promover-a-saude-masculina/" target="_blank">Checklist de exames básicos para promover a saúde masculina</a></li><br>
+          <li><a href="https://www.conexasaude.com.br/blog/bronquite-sinusite-rinite/" target="_blank">Os meses frios aumentam os casos de rinite, sinusite e bronquite?</a></li><br>
+        </ul>
+
+      </aside>
+      
+    </main>
+
+    <script src="imc.js"></script>
+    
+  </body>
+  <footer>
+    
+    <p>Site criado por Evandro de Jesus Lima</p>
+  </footer>
+</html>
